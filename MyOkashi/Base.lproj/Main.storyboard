@@ -19,16 +19,15 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="McP-LD-Der">
-                                <rect key="frame" x="58" y="123" width="297" height="380"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="McP-LD-Der">
+                                <rect key="frame" x="0.0" y="100" width="414" height="762"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Hsb-8B-k3c">
-                                        <rect key="frame" x="0.0" y="28" width="297" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hsb-8B-k3c" id="EjM-rK-th6">
-                                            <rect key="frame" x="0.0" y="0.0" width="297" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -38,7 +37,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Zo9-Xb-sBY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="88m-iH-MkL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="McP-LD-Der" secondAttribute="trailing" id="F1O-QL-9AO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="McP-LD-Der" secondAttribute="bottom" id="TTW-VA-ZPh"/>
                             <constraint firstItem="Zo9-Xb-sBY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VGG-q0-D0D"/>
+                            <constraint firstItem="McP-LD-Der" firstAttribute="top" secondItem="Zo9-Xb-sBY" secondAttribute="bottom" id="Yqn-fd-iz0"/>
+                            <constraint firstItem="McP-LD-Der" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pO6-am-nla"/>
                             <constraint firstItem="Zo9-Xb-sBY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uAK-h2-E5j"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
