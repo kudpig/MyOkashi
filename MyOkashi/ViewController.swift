@@ -30,5 +30,16 @@ class ViewController: UIViewController, UISearchBarDelegate {
     
     
     
-}
+    // 検索ボタンをクリック時
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        // キーボードを閉じる
+        view.endEditing(true)
+        
+        if let searchWord = searchBar.text {
+        // デバックエリアに出力
+        print(searchWord)
+        }
+    
+    }
 
+}
